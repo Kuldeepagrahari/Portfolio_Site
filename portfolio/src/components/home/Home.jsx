@@ -12,7 +12,7 @@ const Home = () => {
       <div className="left">
         <h3>Hello, It's Me</h3>
         <h1>Kuldeep Agrahari</h1>
-        <h2 style={{  margin: 'auto 0', fontWeight: 'normal' }}>
+        <h2 style={{ marginBottom:"3vh", fontWeight: 'normal' }}>
         And I'm a {' '}
         <span style={{ color: 'skyblue', fontWeight: 'bold' }}>
           {/* Style will be inherited from the parent element */}
@@ -28,7 +28,7 @@ const Home = () => {
           />
         </span>
       </h2>
-      <p>Lorem ipsum dolor,Lorem ibcaecati atque, saepe odit ducimus quaerat. Praesentium, consectetur tenetur! perspiciatis possimus reprehenderit ut perferendis nihil.cusantium voluptatem asperiores ducimus! Beatae, unde.</p>
+      <p style={{fontSize:"13px"}}>Lorem ipsum dolor,Lorem ibcaecati atque, saepe odit ducimus quaerat. Praesentium, consectetur tenetur! perspiciatis possimus reprehenderit ut perferendis nihil.cusantium voluptatem asperiores ducimus! Beatae, unde.</p>
       <div className="social-links">
         <Link to=""><FaGithub /></Link>
         <Link to=""><ImLinkedin/></Link>
@@ -39,7 +39,7 @@ const Home = () => {
      
       <div className="right">
         <div className="pic">
-        <img src={myPic} alt="" style={{width:"350px"}}/>
+        <img src={myPic} alt="" style={{width:"280px"}}/>
         </div>
       </div>
     </div>
