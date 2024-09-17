@@ -33,3 +33,19 @@
 
     }
 }
+@media  screen and (max-width:650px) {
+    .nav{
+        flex-direction: column;
+        height: 15vh;
+        justify-content: center;
+        gap:30px;
+        /* background-color: black; */
+        .route-links{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+    }
+}
